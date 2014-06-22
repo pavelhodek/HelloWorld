@@ -9,8 +9,6 @@ import java.io.InputStreamReader;
  */
 public class HelloWorld {
     public static void main(String[] args) throws IOException {
-        //System.out.println("Hello world!");
-
         BufferedReader buff = new BufferedReader(
                 new InputStreamReader(System.in));
         System.out.print("What's your name? ");
